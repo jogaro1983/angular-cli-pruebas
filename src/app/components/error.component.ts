@@ -10,13 +10,16 @@ export class ErrorComponent{
 
     public titulo: string;
     public dato:string;
+    public fecha:string;
+    public info:string;
 
     constructor()
     {
         this.titulo = 'Página Error';
     }
 
-    ngOnInit(){
+    ngOnInit()
+    {
         console.log('Se ha cargado el componente error.');
     }
 }
