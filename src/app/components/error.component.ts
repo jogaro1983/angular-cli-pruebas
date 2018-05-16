@@ -16,10 +16,11 @@ export class ErrorComponent{
     constructor()
     {
         this.titulo = 'Página Error';
+        this.titulo = 'La página que está buscando no está disponible';
+        this.info = 'Página de error';
     }
 
-    ngOnInit()
-    {
+    ngOnInit(){
         console.log('Se ha cargado el componente error.');
     }
 }

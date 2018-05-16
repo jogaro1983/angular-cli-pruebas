@@ -1,0 +1,12 @@
+#titulo_principal{
+    color: red;
+    width: 800px;
+    border: 1px blue solid;
+}
+
+#titulo_secundario
+{
+    color: blue;
+    width: 800px;
+    border: 1px black solid;
+}
